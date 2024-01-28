@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add custom styles here if needed */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706313600&semt=ais') center/cover fixed no-repeat; /* Use the software-related image as the background */
+            color: rgb(33, 33, 30); /* Text color for better readability on the background */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .name-photo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .photo {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .about-me-list {
+            text-align: left;
+            list-style: none;
+            padding: 0;
+        }
+
+        .about-me-list li {
+            margin-bottom: 10px;
+        }
+
+        .additional-section {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .additional-section h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .additional-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .additional-section li {
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Software Engineer Portfolio</title>
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="name-photo-container">
+                <div class="name">
+                    <h1>KUKUTLA SRIHARSHITHA</h1>
+                    <p class="text-lg">Software Engineer</p>
+                </div>
+                <img src="C:\Users\R.R.4.7.22\Desktop\codtechitsolutions\TASK-1\studentprofile.jpg" alt="Student Photo" class="photo">
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <ul class="about-me-list">
+                 <!-- Education Section -->
+    <section id="education" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Education</h2>
+           <strong><p>2021 - 2024 : B.Tech ( Computer Science and Engineering )<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sri indu College of Engineering and Technology,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sheriguda, Ranga Reddy, Telangana</p>
+            <p>2018 - 2021 : Diploma ( Computer Science and Engineering )<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                TRR College of Technology ( Polytechnic ), <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Meerpet, Ranga Reddy, Telangana</p>
+            <p>2016 - 2018 : SSC ( Board of Secoundary Education )<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Gautami Talent School,<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 Meerpet, Ranga Reddy, Telangana</p>
+            <p>2007 - 2016 : Sri Sai Grammar High School,<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 Aliyabad, Hyderabad, Telangana</p></strong>
+        </div>
+    </section>
+
+    <!-- Languages Known Section -->
+    <section id="languages-known" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Languages Known</h2>
+            <strong><p><p> 1 : English</p>
+            <p>2 : Hindi  </p>
+            <p> 3 : Telugu</p></p></strong>
+        </div>
+    </section>
+
+    <!-- Training/Courses Section -->
+    <section id="training-courses" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Training/Courses</h2>
+        <strong><p><p> *  Machine learning with python course completion certificate</p>
+            </p></strong>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Achievements</h2>
+        <strong><p><p> 1 : Several prizes and certificas in my school in various subjects.</p>
+            2 : Several certificates in my college in different events.</p></strong>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section id="strengths" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Strengths</h2>
+        <strong><p><p> 1 : Leadrship, Teamwork.</p>
+            <p> 2 : Communication, Active listener.</p>
+            <p> 3 : Adaptability, Honesty.</p>
+            <p> 4 : Self motivated.</p></p></strong>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Certifications</h2>
+        <strong><p><p> 1 : Abhyudaya Coding Merit Crtificate.</p>
+            <p> 2 : ATech Astra - 22 Coding participation certificate.</p>
+            <p> 3 : School All subjects Merit certificate.</p></p></strong>
+        </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Volunteering</h2>
+        <strong><p><p> 1: Excellencia - 2022 ( Certificate of organizer )<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sri indu College of Engineering and Technology.</p>
+            <p> 2: Technostav - 2023 ( Certificate of organizer )<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sri indu College of Engineering and Technology.</p></p></strong>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="about-me-section">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+        <strong><p>Project 1: An implementation encryption solution utilizing acquiring parity through disturbance.</p>
+            <p>Project 2: Artificial Neural Network approaches for lung cancer identification.</p></strong>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+            </ul>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <h2 class="text-3xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc text-left">
+            <strong><li>HTML5, CSS3, JavaScript</li>
+                <li>React, Vue.js</li>
+                <li>Node.js, Express</li>
+                <li>MySQL, MongoDB</li></strong>
+            </ul>
+            <br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    
+
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <!-- Scroll to Top Button -->
+    <button onclick="scrollToTop()" class="fixed bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded-full">Top</button>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <br><br><br><br>
+</body>
+</html>
